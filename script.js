@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const loginForm = document.getElementById('loginForm');
     const messageDiv = document.getElementById('message');
     
-    // Credenciais válidas (substitua com seu nome)
+    // Credenciais válidas (substitua com suas informações)
     const validUsername = "SeuNome"; // Coloque seu nome aqui
     const validPassword = "SuaSenha"; // Coloque sua senha aqui
     

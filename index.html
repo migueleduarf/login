@@ -10,18 +10,20 @@
     <div class="container">
         <div class="login-box">
             <div class="logo">
-                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjQ1IiBmaWxsPSIjNEU0QTVGIiAvPgogICAgPHBhdGggZD0iTTM1IDQ1IEw0NSA1NSBMNjUgMzUiIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiIC8+CiAgICA8dGV4dCB4PSI1MCIgeT0iODAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmlsbD0iI0ZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+U2VndXJhbmNhPC90ZXh0Pgo8L3N2Zz4=" alt="Logotipo Segurança">
-                <h1>Segurança Login</h1>
+                <div class="logo-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h1>SafeLogin</h1>
             </div>
             
             <form id="loginForm">
                 <div class="input-group">
-                    <label for="username">Usuário</label>
-                    <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
                 </div>
                 
                 <div class="input-group">
-                    <label for="password">Senha</label>
+                    <i class="fas fa-key"></i>
                     <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
                 </div>
                 
@@ -32,6 +34,7 @@
         </div>
     </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
